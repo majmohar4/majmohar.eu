@@ -32,7 +32,7 @@ body {
     max-width: 100%;
 }
 header{
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,14 +60,12 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    margin-top: 10vh;
+    margin-top: 5vh;
     padding: 20px;
     text-align: center;
     font-size: 15px;
-    width: 100%;
     z-index: 1000;
     font-size: 30px;
-    margin: 0 auto; /* Center the nav bar horizontally */
 }
 nav ul {
     list-style: none;
