@@ -37,6 +37,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 .prof_image {
     max-width: 100%;
@@ -72,10 +73,10 @@ nav ul {
     list-style: none;
     display: flex;
     justify-content: center;
+    gap: 20px;
 }
 
 nav ul li {
-    margin: 0 20px;
     position: relative;
     overflow: hidden;
 }
