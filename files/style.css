@@ -8,6 +8,7 @@
     scroll-behavior: smooth;
     max-width: 100%;
     overflow-x: hidden;
+    user-select: none;
 }
 
 ::-webkit-scrollbar {
@@ -19,7 +20,7 @@
     --background2: #096B90;
     --background1: #A1CCDC;
     --text: #fff;
-    --text2: #ff0000;
+    --text2: #E9AFA3;
     --ggs: 1;
     --text-size: 1.75rem;
     --text-header1: 12vh;
@@ -90,11 +91,11 @@ nav ul li a {
     text-decoration: none;
     color: var(--text);
     padding: 10px;
+    transition: color 0.7s; /* Add transition property */
 }
 
 nav ul li a:hover {
     color: var(--text2);
-    transition: 0.7s;
 }
 
 nav ul li a:hover::after {
@@ -106,11 +107,10 @@ nav ul li a:hover::after {
     position: absolute;
     bottom: 0;
     left: 0;
-    transition: 0.7s;
+    transition: width 0.7s; /* Add transition property */
 }
 
 section {
-    margin-top: 10vh;
     max-width: 1400px;
     margin: 10px auto;
     padding: 50px;
@@ -124,9 +124,13 @@ section h3{
     font-size: var(--text-header3);
     margin-bottom: 20px;
 }
-section p, li {
+section p, section ul, section ol{
     font-size: var(--text-size);
     margin-bottom: 20px;
+}
+section ul {
+    font-size: var(--text-size);
+
 }
 
 .title {
@@ -184,17 +188,28 @@ footer {
     :root{
         --text-size: 3vh;
         --text-header1: 8vh;
-        --text-header2: 6vh;
+        --text-header2: 4.5vh;
         --text-header3: 4vh;
         --text-footer: 1rem;
+    }
+    header{
+        margin-top: 1vh;
+    }
+    nav {
+        margin-top: 1vh;
+        margin-bottom: 1vh;
     }
     nav ul {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        font-size: 2rem;
     }
-    
+    .scroll-down {
+        height: 8vh;
+    }
+    section{
+        padding: 30px;
+    }
 }
 .contact-list {
     list-style: none;
@@ -226,4 +241,34 @@ footer {
     font-size: 16px;
     color: #333;
     text-align: center;
+}
+
+.scroll-up{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9999;
+    filter: invert(1);
+    animation: floatAnimation 2.5s infinite;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+.show {
+    opacity: 1;
+}
+.rolling-stones{
+    padding: 20px;
+    height: 10vh;
+}
+.rolling-stones p {
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    margin: 0;
+    &:nth-of-type(5){
+        color: #042B44;
+    }
 }
