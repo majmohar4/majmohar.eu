@@ -217,20 +217,29 @@ footer {
   header {
     margin-top: 1vh;
   }
+  header h1 {
+    font-size: var(--text-header1);
+    padding-bottom: 7vh;
+  }
   nav {
+    flex-wrap: nowrap;
     margin-top: 1vh;
     margin-bottom: 1vh;
+    flex-direction: column;
   }
   nav ul {
     display: flex;
-    flex-direction: column;
     gap: 10px;
   }
   .scroll-down {
+    margin-top: 10vh;
     height: 8vh;
   }
   section {
     padding: 30px;
+  }
+  .rolling-stones {
+    margin: 100vh;
   }
 }
 .contact-list {
@@ -254,7 +263,7 @@ footer {
 }
 
 .contact-item img {
-  width: 80px; /* Adjust the size of the icon */
+  width: 80px;
   height: auto;
   margin-bottom: 10px;
 }

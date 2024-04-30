@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "gsap": "^3.12.5",
-    "split-text-js": "^1.0.3"
-  }
-}
