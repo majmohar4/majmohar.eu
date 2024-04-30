@@ -1,128 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maj Mohar</title>
-    <link rel="stylesheet" href="./files/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="icon" href="./files/profilna.jpeg">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down-o.css' rel='stylesheet'>
-    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chevron-down-o.css' rel='stylesheet'>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/TextPlugin.min.js"></script>
-    <script src="./files/SplitTextJS.js"></script>
-<body id="main">
-    <header>
-        <img src="./files/IMG_2983.jpg" class="prof_image" alt="Profile Picture">
+    <link rel="stylesheet" href="./files/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="icon" href="./files/images/profilna.jpeg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"
+    ></script>
+    <script type="text/javascript" src="./files/js/splittext.js"></script>
+    <body id="main">
+      <header>
+        <img
+          src="./files/images/IMG_2983.jpg"
+          class="prof_image"
+          alt="Profile Picture"
+        />
         <h1>Maj Mohar</h1>
-        <div class="rolling-stones">
-            <p>Student</p>
-            <p>Developer</p>
-            <p>Musician</p>
-            <p>Radio Amateur</p>
-            <p>Versatilist</p>
+        <div id="rolling-stones">
+          <p>Student</p>
+          <p>Developer</p>
+          <p>Musician</p>
+          <p>Radio Amateur</p>
+          <p>Versatilist</p>
         </div>
         <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
         </nav>
         <div class="icons">
-            <a href="#about">
-                <img src="./files/icon.svg" alt="Arrow-down icon" class="scroll-down">
-            </a>
+          <a href="#about">
+            <img
+              src="./files/icons/icon.svg"
+              alt="Arrow-down icon"
+              class="scroll-down"
+            />
+          </a>
         </div>
-    </header>
-    
-    <section id="about">
+      </header>
+      <section id="about">
         <h2>About Me</h2>
-        <p>I'm a second-year student at Vegova, deeply entrenched in the technical gymnasium program, where each day is an opportunity for discovery and growth. My journey is driven not only by a passion for technology and creativity but also by an insatiable curiosity to explore new avenues within these realms.</p>
-    </section>
-    
-    <section id="skills">
+        <div class="description">
+          <p>
+            I'm a second-year student at Vegova, deeply entrenched in the
+            technical gymnasium program, where each day is an opportunity for
+            discovery and growth. My journey is driven not only by a passion for
+            technology and creativity but also by an insatiable curiosity to
+            explore new avenues within these realms.
+          </p>
+          <p>
+            As a developer, I am constantly seeking new challenges and
+            opportunities to expand my knowledge and expertise in the field of
+            technology. My journey has been marked by a series of milestones
+            that have shaped my understanding of the world around me and fueled
+            my desire to create and innovate.
+          </p>
+        </div>
+      </section>
+
+      <section id="skills">
         <h2>Skills</h2>
-        <ul>
-            <li>Proficient in JavaScript, HTML, CSS, and ReactJS, with a keen interest in expanding my skill set to encompass emerging technologies and platforms.</li>
-            <li>Licensed radio amateur, continually seeking new challenges and opportunities to broaden my knowledge and expertise in communication and technology.</li>
-            <li>Adaptable and open-minded, always ready to embrace new ideas and explore uncharted territories within the vast landscape of technology.</li>
-        </ul>
-    </section>
-    
-    <section id="interests">
+        <div class="description">
+          <ul>
+            <li>
+              Familiar with JavaScript, HTML, CSS, and ReactJS, with a keen
+              interest in expanding my skill set to encompass emerging
+              technologies and platforms. Additionally, I have a basic
+              understanding of Python.
+            </li>
+            <li>
+              Licensed radio amateur, continually seeking new challenges and
+              opportunities to broaden my knowledge and expertise in
+              communication and technology.
+            </li>
+            <li>
+              Adaptable and open-minded, always ready to embrace new ideas and
+              explore uncharted territories within the vast landscape of
+              technology.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="interests">
         <h2>Interests</h2>
-        <ul>
-            <li>Currently in my seventh year of piano studies at the music school, finding inspiration in the harmony between technology and music.</li>
-            <li>A guitarist at heart, discovering new rhythms and melodies that resonate with my ever-evolving interests.</li>
-            <li>Capturing life's moments through the lens of my phone, not only as a means of expression but also as a tool for exploring the intersection of technology and creativity.</li>
-        </ul>
-    </section>
-    
-    <section id="projects">
+        <div class="description">
+          <ul>
+            <li>
+              Currently in my seventh year of piano studies at the music school,
+              finding inspiration in the harmony between technology and music.
+            </li>
+            <li>
+              A guitarist at heart, discovering new rhythms and melodies that
+              resonate with my ever-evolving interests.
+            </li>
+            <li>
+              Capturing life's moments through the lens of my phone, not only as
+              a means of expression but also as a tool for exploring the
+              intersection of technology and creativity.
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects">
         <h2>Projects</h2>
-        <ul>
+        <div class="description">
+          <ul>
             <li>
-                <h3>KrokyPlus</h3>
-                <p>My friends and I always forget to order us food for school, so we, in our lazines, made an AI to order it for us.</p>
+              <h3>KrokyPlus</h3>
+              <p>
+                My friends and I always forget to order us food for school, so
+                we, in our lazines, made an AI to order it for us.
+              </p>
             </li>
             <li>
-                <h3>Project 2</h3>
-                <p>Description of project 2.</p>
+              <h3>Other</h3>
+              <p>
+                In addition to my featured projects, I've worked on various
+                smaller tasks that have helped me develop. While they may not be
+                prominently displayed, they still demonstrate my commitment to
+                learning and progress.
+              </p>
             </li>
-            <!-- Add more projects here -->
-        </ul>
-    </section>
-    
-    <section id="contact">
+          </ul>
+        </div>
+      </section>
+
+      <section id="contact">
         <h2>Contact Me</h2>
         <ul class="contact-list">
-            <li class="contact-item">
-                <a href="https://github.com/majmohar4" target="_blank">
-                    <img src="./files/github-icon.svg" alt="GitHub">
-                    <span>GitHub</span>
-                </a>
-            </li>
-            <li class="contact-item">
-                <a href="https://www.youtube.com/@majmohar7537" target="_blank">
-                    <img src="./files/youtube-icon.svg" alt="YouTube">
-                    <span>YouTube</span>
-                </a>
-            </li>
-            <li class="contact-item">
-                <a href="mailto:maj.mohar4@gmail.com">
-                    <img src="./files/gmail-icon.svg" alt="Gmail">
-                    <span>Gmail</span>
-                </a>
-            </li>
-            <li class="contact-item">
-                <a href="https://discord.com/users/1014769833688182825" target="_blank">
-                    <img src="./files/discord-icon.svg" alt="Discord">
-                    <span>Discord</span>
-                </a>
-            </li>
-            <li class="contact-item">
-                <a href="https://www.linkedin.com/in/maj-mohar-393984305/" target="_blank">
-                    <img src="./files/linkedin-icon.svg" alt="LinkedIn">
-                    <span>LinkedIn</span>
-                </a>
-            </li>
+          <li class="contact-item">
+            <a href="https://github.com/majmohar4" target="_blank">
+              <img src="./files/icons/github-icon.svg" alt="GitHub" />
+              <span>GitHub</span>
+            </a>
+          </li>
+          <li class="contact-item">
+            <a href="https://www.youtube.com/@majmohar7537" target="_blank">
+              <img src="./files/icons/youtube-icon.svg" alt="YouTube" />
+              <span>YouTube</span>
+            </a>
+          </li>
+          <li class="contact-item">
+            <a href="mailto:maj.mohar4@gmail.com">
+              <img src="./files/icons/gmail-icon.svg" alt="Gmail" />
+              <span>Gmail</span>
+            </a>
+          </li>
+          <li class="contact-item">
+            <a
+              href="https://discord.com/users/1014769833688182825"
+              target="_blank"
+            >
+              <img src="./files/icons/discord-icon.svg" alt="Discord" />
+              <span>Discord</span>
+            </a>
+          </li>
+          <li class="contact-item">
+            <a
+              href="https://www.linkedin.com/in/maj-mohar-393984305/"
+              target="_blank"
+            >
+              <img src="./files/icons/linkedin-icon.svg" alt="LinkedIn" />
+              <span>LinkedIn</span>
+            </a>
+          </li>
         </ul>
-    </section>
-    <div id="scroll-up" class="scroll-up">
+      </section>
+      <div id="scroll-up" class="scroll-up">
         <a href="#main">
-            <img src="./files/icon2.svg" alt="Arrow-up icon">
+          <img src="./files/icons/icon2.svg" alt="Arrow-up icon" />
         </a>
-    </div>
-    
-    <footer>
+      </div>
+
+      <footer>
         <p>&copy; 2024 Maj Mohar</p>
-    </footer>
-    <script src="./files/script.js"></script>
-</body>
+      </footer>
+      <script src="./files/js/script.js"></script>
+    </body>
+  </head>
 </html>
