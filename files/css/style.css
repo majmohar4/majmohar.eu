@@ -241,6 +241,14 @@ footer {
   .rolling-stones {
     margin: 100vh;
   }
+  section#projects ul {
+    flex-direction: column;
+    width: 100vh;
+  }
+
+  section#projects ul li {
+    width: 100vh;
+  }
 }
 .contact-list {
   list-style: none;
@@ -264,7 +272,7 @@ footer {
 
 .contact-item img {
   width: 80px;
-  height: auto;
+  height: 80px;
   margin-bottom: 10px;
 }
 
@@ -314,4 +322,55 @@ footer {
 
 .description {
   margin: 30px;
+}
+
+section#projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+section#projects li {
+  width: calc(33% - 20px);
+  background-color: var(--color2);
+  border-radius: 10px;
+  padding: 20px;
+  transition: background-color 0.3s ease;
+  overflow: hidden;
+}
+
+section#projects li:hover {
+  background-color: var(--color3);
+}
+
+section#projects h3 {
+  font-size: var(--text-size);
+  margin-bottom: 10px;
+}
+
+section#projects p {
+  font-size: calc(var(--text-size) * 0.8);
+}
+
+section#projects li img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.description {
+  margin: 30px;
+}
+
+.description p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
 }
