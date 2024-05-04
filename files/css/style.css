@@ -18,12 +18,12 @@
   --color1: #042b44;
   --color2: #096b90;
   --color3: #a1ccdc;
-  --color4: #e9afa3;
+  --color4: #a72608;
   --background3: #042b44;
   --background2: #096b90;
   --background1: #a1ccdc;
   --text: #fff;
-  --text2: #e9afa3;
+  --text2: #a72608;
   --ggs: 1;
   --text-size: 1.75rem;
   --text-header1: 12vh;
@@ -360,10 +360,6 @@ section#projects li img {
   text-decoration: none;
 }
 
-.description {
-  margin: 30px;
-}
-
 .description p {
   margin-bottom: 10px;
   line-height: 1.5;
@@ -373,4 +369,11 @@ section#projects li img {
   display: flex;
   gap: 10px;
   margin-top: 10px;
+}
+
+.youtube-video {
+  display: flex;
+  justify-content: center;
+  border-radius: 7%;
+  border: 1px var(--color1) solid;
 }
