@@ -1,0 +1,21 @@
+{
+    "name": "Maj Mohar",
+    "short_name": "Maj",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1976D2",
+    "icons": [
+      {
+        "src": "./files/images/profilna.jpeg",
+        "sizes": "192x192",
+        "type": "image/jpeg"
+      },
+      {
+        "src": "./files/images/profilna.jpeg",
+        "sizes": "512x512",
+        "type": "image/jpeg"
+      }
+    ]
+  }
+  
