@@ -377,3 +377,27 @@ section#projects li img {
   border-radius: 7%;
   border: 1px var(--color1) solid;
 }
+
+.cv-links {
+  display: flex;
+  justify-content: center;
+}
+
+.cv-links a {
+  text-decoration: none;
+}
+
+.cv-links button {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cv-links button:hover {
+  background-color: #0056b3;
+}
