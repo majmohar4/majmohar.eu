@@ -383,6 +383,21 @@ section#projects li img {
   justify-content: center;
   margin-top: 10vh;
 }
+@media screen and (max-width: 768px) {
+  .videi {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .youtube-video {
+    width: 90vh;
+  }
+}
+.posnetki {
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding-top: 0;
+}
 
 .cv-links {
   display: flex;
